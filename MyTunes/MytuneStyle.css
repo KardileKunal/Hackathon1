@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav .navbar .head {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.head li {
+    list-style-type: none;
+    padding: 1rem 1.5rem 0.6rem 1.5rem;
+}
+
+.head a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head li:hover {
+    background-color: #3e3b3b;
+
+}
+
+section .contain {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Images/guitarist-photo.jpg");
+    background-size: cover;
+
+}
+
+.contain_txt {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+    padding: 10rem;
+    text-align: center;
+
+}
+
+.music,
+.video {
+    background-color: #252529;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+.music .m_title,
+.video .v_title {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    gap: 0.5rem;
+    padding: 2.5rem;
+}
+
+.music .m_discp,
+.video .v_discp,
+.entertain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 10rem;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.video .v_discp {
+    padding-top: 0;
+}
+
+.m_discp h5,
+h6 {
+    font-weight: 100;
+}
+
+.m_discp a,
+.v_discp a {
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 0.8rem;
+}
+
+.v_discp a {
+    background-color: #103063;
+    border-radius: 0.3rem;
+}
+
+.m_discp p {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.video {
+    background-color: #fff;
+    color: #333;
+}
+
+.video .v_title {
+    margin-top: 2rem;
+}
+
+.entertain {
+    height: 60vh;
+    width: 100%;
+    background-image: url("./Images/nightskyimg.jpg");
+    background-size: cover;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.gifts {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 12rem;
+
+}
+
+.gifts .gift_img img {
+    width: 100%;
+}
+
+.gifts .gift_disp {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.gift_disp h5 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.gift_disp p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.gift_disp a {
+    text-decoration: none;
+    padding-top: 0.8rem;
+    color: #103063;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #252529;
+    color: #fff;
+}
+
+.bottom {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 2rem 2rem 5rem;
+    text-align: left;
+}
+
+
+.bottom_col h5 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.bottom_col a {
+    text-decoration: none;
+    color: #CCC;
+}
+
+.bottom_col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 80%;
+
+}
+
+.bottom_col li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.bottom_col ul hr {
+    color: #444;
+    opacity: 0.2;
+}
+
+.copyright {
+    padding: 1.3rem;
+    text-align: center;
+    font-size: 1.45rem;
+    color: snow;
+    background-color: #333;
+}
