@@ -170,26 +170,26 @@ section .main {
     line-height: 1.4;
 }
 
-footer{
+footer {
     background-color: var(--background-clr-thm);
 }
 
-.bottom{
+.bottom {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 3rem;
 }
 
-.bottom .copyright{
+.bottom .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
     font-size: 0.8rem;
-    color: var(--txt-thm);    
+    color: var(--txt-thm);
 }
 
-footer .bottom .navbar ul{
+footer .bottom .navbar ul {
     font-size: 0.85rem;
 }

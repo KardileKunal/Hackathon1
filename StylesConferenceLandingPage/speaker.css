@@ -1,0 +1,96 @@
+.container {
+    background-image: linear-gradient(to right, #A2D3B0, #F1EFD1);
+    padding: 3.2rem 10rem;
+    margin-bottom: 3rem;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 10rem;
+}
+
+.heading h1 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: var(--txt-thm);
+}
+
+.heading p {
+    font-size: 1.3rem;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.speaker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 1rem 20rem 3rem;
+
+}
+
+.speaker_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.speaker_info h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: var(--txt-thm);
+}
+
+.speaker_info h6 {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: var(--txt-thm);
+    opacity: 0.5;
+}
+
+.speaker_info p {
+    font-size: 1rem;
+    opacity: 0.5;
+    line-height: 1.4;
+}
+
+.speaker_profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 2.5rem 2rem 2.5rem;
+    /* border: 2px solid #000; */
+}
+
+.speaker_profile img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 6%;
+    /* border: 2px solid #000; */
+}
+
+.profile_name {
+    margin: -4.5rem -2.5rem;
+    padding: 5rem 4rem 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.profile_name a {
+    text-decoration: none;
+    color: var(--txt-thm);
+    font-size: 1rem;
+
+}
