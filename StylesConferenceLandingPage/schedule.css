@@ -1,0 +1,77 @@
+section {
+    padding: 5rem 20rem;
+}
+
+.timetable{
+    padding-bottom: 2rem;
+}
+
+.timetable:last-child{
+    margin-bottom: -5rem;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 1rem 0 1.5rem 0rem;
+
+}
+
+table th {
+    vertical-align: top;
+    text-align: right;
+    padding: 1rem 2rem 1.5rem 0rem;
+}
+
+table .head_row {
+    font-weight: 100;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+table .first_head {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    color: var(--txt-thm);
+}
+
+table .desp11 {
+    font-size: 1.1rem;
+    opacity: 0.5;
+
+}
+
+table .desp a {
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+table .desp a h4 {
+    color: var(--txt-thm);
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+
+table .desp a p {
+    color: #000;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+table .desp a p:hover {
+    opacity: 0.5;
+}
+
+tbody td {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
