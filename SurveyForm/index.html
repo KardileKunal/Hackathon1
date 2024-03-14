@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+   <section>
+    <div class="title">
+        <h3>freeCodeCamp Survey Form</h3>
+        <h6><i>Thank you for taking the time to help us improve the platform</i></h6>
+    </div>
+    <div class="Sur_form">
+        <div class="input_field">
+            <h4>Name</h4>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="input_field">
+            <h4>Email</h4>
+            <input type="email" placeholder="Enter your Email" required>
+        </div>
+        <div class="input_field">
+            <h4>Age <small>(Optional)</small></h4>
+            <input type="number" min="20" max="99" placeholder="Age">
+        </div>
+
+        <div class="input_field">
+            <h4>Which option best describes your current role?</h4>
+            <select id="dropdown" name="role" class="form_role" required>
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+        </div>
+
+
+        <!-- <div class="input_field  radio_but">
+            <h4>Name</h4>
+            <label for=""><input type="radio" name="" id="">Definitely</label>
+            <label for=""><input type="radio" name="" id="">Maybe</label>
+            <label for=""><input type="radio" name="" id="">Not sure</label>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="input_field">
+            <h4>What is your favorite feature of freeCodeCamp?</h4>
+            <select id="dropdown" name="role" class="form_role" required>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="opensource">Open Source</option>
+            </select>
+        </div>
+        
+        <div class="input_field">
+            <h4>Any comments or suggestions?</h4>
+            <textarea name="" id="" cols="30" rows="5" placeholder=" Enter your Comment here .."></textarea>
+        </div>
+
+        <div class="submit_but">
+            <input type="button" value="Submit">
+        </div>
+    </div>
+   </section>
+
+</body>
+</html>
