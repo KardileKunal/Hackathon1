@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.reg {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5rem 18rem;
+  gap: 4rem;
+}
+
+.purchase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  /* border: 2px solid #000; */
+}
+
+
+.purchase h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+.purchase h4 {
+  font-size: 1.5rem;
+  color: var(--txt-thm);
+}
+
+.purchase h6 {
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+
+.purchase p {
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.purchase h5 {
+  font-size: 1.2rem;
+  color: var(--txt-thm);
+}
+
+.purchase ul {
+  list-style-type: square;
+  font-size: 1.05rem;
+  opacity: 0.5;
+  padding-left: 2rem;
+}
+
+.input_form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  /* border: 1px solid #000; */
+}
+
+.inp_field{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inp_field h5{
+    font-size: 1.05rem;
+    font-weight: 100;
+    color: var(--txt-thm);
+}
+
+.inp_field input,
+.inp_field textarea{
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.inp_field select{
+  height: 35px;
+  width: 60px;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.inp_field input::placeholder{
+  font-size: 0.95rem;
+}
+
+.sub_button{
+  padding-top: 1rem;
+}
+
+.sub_button input{
+      padding: 0.5rem 2rem;
+      font-size: 1rem;
+      color: #fff;
+      background-color: var(--txt-thm);
+      border-radius: 0.3rem;
+      border: none;
+      cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.why-attend {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+} */
