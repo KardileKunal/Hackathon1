@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
 
-body{
+body {
     background-image: url(./images/surveybg.jpg);
     background-size: cover;
     background-size: 100% 100%;
@@ -16,7 +16,7 @@ body{
     background-position: center;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,40 +25,41 @@ section{
     height: 100vh;
     /* height: 90%; */
     padding: 2rem;
-    /* border: 2px solid #fff; */
 }
 
-section .title{
+section .title {
     line-height: 1.8;
     text-align: center;
     word-spacing: 1.5px;
 }
 
-section .title h3{
+section .title h3 {
     font-size: 2rem;
     font-weight: 100;
 }
 
-section .title h6{
+section .title h6 {
     font-size: 1.1rem;
     font-weight: 100;
 }
 
-.Sur_form{
+.Sur_form {
     border: 1px solid #fff;
     background-color: rgba(5, 44, 61, 0.8);
     width: 50%;
 }
 
-.Sur_form .input_field,.submit_but{
+.Sur_form .input_field,
+.submit_but,
+.option_button {
     padding: 1.5rem 2.5rem 0 2.5rem;
     line-height: 2.1;
     text-align: left;
-    /* border: 1px solid #fff; */
 
 }
 
-.input_field h4{
+.input_field h4,
+.option_button h4 {
     font-size: 1.2rem;
     font-weight: 100;
 }
@@ -66,7 +67,7 @@ section .title h6{
 .input_field input,
 .input_field select,
 .input_field textarea,
-.submit_but input{
+.submit_but input {
     width: 100%;
     padding: 0.5rem;
     font-size: 1rem;
@@ -76,23 +77,35 @@ section .title h6{
 }
 
 
-.input_field select option{
-    /* background-color: #fff; */
+.input_field select option {
+    background-color: #fff;
     color: #000;
 }
 
-/* .radio_but input label{
+.option_button label {
     display: flex;
-    text-align: left;
-    align-items: flex-start;
-} */
+    align-items: center;
+    gap: 1rem;
+}
 
-.submit_but input{
+.option_button label h5 {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.option_button label input[type='radio'],
+.option_button label input[type='checkbox'] {
+    height: 20px;
+    width: 20px;
+}
+
+.submit_but input {
     color: #fff;
     background-color: #0b6389;
     padding: 0.8rem 0;
+    cursor: pointer;
 }
 
-.submit_but{
+.submit_but {
     padding-bottom: 2rem;
 }
