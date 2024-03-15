@@ -1,3 +1,4 @@
+/* default styling */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: sans-serif;
 }
 
+/* navbar Section Styling */
 nav .navbar .head {
     background-color: #333;
     color: #fff;
@@ -35,6 +37,8 @@ nav {
 
 }
 
+/* front section image and styling */
+
 section .contain {
     height: 100vh;
     width: 100%;
@@ -56,6 +60,7 @@ section .contain {
 
 }
 
+/* Music , video and Entertainment section combine styling*/
 .music,
 .video {
     background-color: #252529;
@@ -137,6 +142,9 @@ h6 {
     line-height: 1.5;
 }
 
+
+/* Gifts Section Stying using grid property */
+
 .gifts {
     display: grid;
     grid-gap: 20px;
@@ -174,6 +182,8 @@ h6 {
     color: #103063;
     font-size: 1rem;
 }
+
+/* Footer Section Styling  */
 
 footer {
     background-color: #252529;
