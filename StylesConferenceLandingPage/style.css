@@ -1,14 +1,19 @@
+/* Declared variables */
+
 :root {
     --background-clr-thm: #293F50;
     --txt-thm: #648880;
 }
 
+/* Default styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* Head/navbar section */
 
 head {
     background-color: var(--background-clr-thm);
@@ -84,6 +89,8 @@ nav {
     color: var(--txt-thm);
 }
 
+
+/* middle section styling */
 .section1 {
     display: flex;
     flex-direction: column;
@@ -170,6 +177,7 @@ section .main {
     line-height: 1.4;
 }
 
+/* Primary styling for footer section */
 footer {
     background-color: var(--background-clr-thm);
 }

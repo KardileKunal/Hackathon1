@@ -1,3 +1,5 @@
+/* Default styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@
 }
 
 
+/* registration form styling */
 
 .reg {
   display: flex;
@@ -14,6 +17,8 @@
   gap: 4rem;
 }
 
+
+/* left side form styling */
 .purchase {
   display: flex;
   flex-direction: column;
@@ -58,6 +63,8 @@ h6 {
   padding-left: 2rem;
 }
 
+/* right side form styling */
+
 .input_form{
   display: flex;
   flex-direction: column;
@@ -98,6 +105,7 @@ h6 {
   font-size: 0.95rem;
 }
 
+/* submit button styling */
 .sub_button{
   padding-top: 1rem;
 }
