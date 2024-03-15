@@ -1,3 +1,5 @@
+/* Default styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
     color: #fff;
 }
 
-
+/* Added background img and fixed it */
 body {
     background-image: url(./images/surveybg.jpg);
     background-size: cover;
@@ -15,6 +17,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Made a section in middle for survey form using flex */
 
 section {
     display: flex;
@@ -26,6 +30,8 @@ section {
     /* height: 90%; */
     padding: 2rem;
 }
+
+/* Styling to title/heading of form */
 
 section .title {
     line-height: 1.8;
@@ -43,11 +49,15 @@ section .title h6 {
     font-weight: 100;
 }
 
+/* Styling to survey form */
+
 .Sur_form {
     border: 1px solid #fff;
     background-color: rgba(5, 44, 61, 0.8);
     width: 50%;
 }
+
+/* Combine styline to input fields */
 
 .Sur_form .input_field,
 .submit_but,
@@ -57,6 +67,8 @@ section .title h6 {
     text-align: left;
 
 }
+
+/* Styling to texts in tags */
 
 .input_field h4,
 .option_button h4 {
@@ -82,6 +94,8 @@ section .title h6 {
     color: #000;
 }
 
+/* Styling to radio button and checkbox */
+
 .option_button label {
     display: flex;
     align-items: center;
@@ -99,6 +113,8 @@ section .title h6 {
     width: 20px;
 }
 
+/* Styling to submit button */
+
 .submit_but input {
     color: #fff;
     background-color: #0b6389;
@@ -109,3 +125,5 @@ section .title h6 {
 .submit_but {
     padding-bottom: 2rem;
 }
+
+/* Styling of survey form ended */
